@@ -40,6 +40,7 @@ group :development, :test do
   gem "pry-byebug" # (Optional) Enhance pry with byebug (which gives more debugger commands and other goodies).
   gem "pry-rails" # (Optional) Replace pry with irb for "rails c" and make pry available for debugging the app.
   gem "rspec-rails", "~> 3.7.0" # (Critical) Configures Rails to use rspec.
+  gem "capybara"
 end
 
 group :development do
