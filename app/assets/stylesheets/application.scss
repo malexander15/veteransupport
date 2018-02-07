@@ -14,4 +14,10 @@
  */
   @import "bootstrap"
 
-  
+.index_bgcolor{
+background: -webkit-linear-gradient(left, #6db3f2 0%,#3690f0 23%,#1e69de 49%,#1e69de 49%,#54a3ee 80%,#54a3ee 80%); /* Chrome10-25,Safari5.1-6 */
+background: #6db3f2; /* Old browsers */
+background: -moz-linear-gradient(left, #6db3f2 0%, #3690f0 23%, #1e69de 49%, #1e69de 49%, #54a3ee 80%, #54a3ee 80%); /* FF3.6-15 */
+background: linear-gradient(to right, #6db3f2 0%,#3690f0 23%,#1e69de 49%,#1e69de 49%,#54a3ee 80%,#54a3ee 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#54a3ee',GradientType=1 ); /* IE6-9 */
+}
