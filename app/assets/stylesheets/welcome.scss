@@ -5,13 +5,30 @@
 }
 .index_header{
 	margin: 0rem;
+	font-size: 5em;
 }
 .banner_container{
-	padding-left: 0;
-	padding-right: 0;
+	padding-left: 0px;
+	padding-right: 0px;
 	height: 50%;
 }
 .banner{
 	width: 100%;
-	background-size: cover;
+  height: 15.5rem;
+  margin-right: -30px;
+}
+.mid_grid{
+	text-align: center;
+}
+.col_style{
+	text-align: center;
+	padding: 5em;
+}
+.col_head{
+	 font-family: 'Raleway', sans-serif;
+}
+.col_para{
+	padding: .5em;
+	line-height: 2.5em;
+
 }
