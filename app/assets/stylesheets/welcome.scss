@@ -1,7 +1,34 @@
 .index_bgcolor{
-	background: -webkit-linear-gradient(left, #6db3f2 0%,#3690f0 23%,#1e69de 49%,#1e69de 49%,#54a3ee 80%,#54a3ee 80%); /* Chrome10-25,Safari5.1-6 */
-background: #6db3f2; /* Old browsers */
-background: -moz-linear-gradient(left, #6db3f2 0%, #3690f0 23%, #1e69de 49%, #1e69de 49%, #54a3ee 80%, #54a3ee 80%); /* FF3.6-15 */
-background: linear-gradient(to right, #6db3f2 0%,#3690f0 23%,#1e69de 49%,#1e69de 49%,#54a3ee 80%,#54a3ee 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#54a3ee',GradientType=1 ); /* IE6-9 */
+ background-color:#e1eff5;
+ font-family: 'Raleway', sans-serif;
+ text-align: center;
+}
+.index_header{
+	margin: 0rem;
+	font-size: 5em;
+}
+.banner_container{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 50%;
+}
+.banner{
+	width: 100%;
+  height: 15.5rem;
+  margin-right: -30px;
+}
+.mid_grid{
+	text-align: center;
+}
+.col_style{
+	text-align: center;
+	padding: 5em;
+}
+.col_head{
+	 font-family: 'Raleway', sans-serif;
+}
+.col_para{
+	padding: .5em;
+	line-height: 2.5em;
+
 }
