@@ -15,4 +15,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require parallax
+//= require jquery.parallax
 
