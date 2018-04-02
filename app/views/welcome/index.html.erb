@@ -2,33 +2,52 @@
 	<h1 class="index_header">Welcome to V.E.T.</h1>
 </div>
 
-<!-- header -->
-
+<!-- end header -->
+<!-- start carousel -->
 <div id="carouselExampleIndicators" class="carousel slide banner" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
+  <!-- end indicator part -->
+  <!-- start carousel -->
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <%= image_tag 'salute.jpg', class: "d-block w-100", alt: "first slide"%>
+    <!-- item 1 -->
+    <div class="carousel-item active">      
+      <%= image_tag 'salute2.jpg', class: "d-block w-100 img", alt: "first slide"%>
+      <!-- Start hover image layer/button for carousel photos -->
+      <div class="imagelayer" id="item1">        
+          <button type="button" class="btn btn-primary linkbutton"><%= link_to "Sign-up"%></button>
+      </div>
+      <!-- end layer/button -->
     </div>
-    <div class="carousel-item">
-      <%= image_tag 'soldiers.jpg', class: "d-block w-100", alt: "second slide"%>
+    <!-- item 2 -->
+    <div class="carousel-item">      
+      <%= image_tag 'soldiers2.jpg', class: "d-block w-100 img", alt: "second slide"%>
+      <!-- Start hover image layer/button for carousel photos -->
+      <div class="imagelayer" id="item2">        
+          <button type="button" class="btn btn-primary linkbutton"><%= link_to "Listen"%></button>
+      </div>
+      <!-- end layer/button -->
     </div>
-    <div class="carousel-item">
-      <%= image_tag 'spec-ops.jpg', class: "d-block w-100", alt: "third slide"%>
+    <!-- item 3 -->
+    <div class="carousel-item">      
+      <%= image_tag 'spec-ops2.jpg', class: "d-block w-100 img", alt: "third slide"%>
+      <!-- Start hover image layer/button for carousel photos -->
+      <div class="imagelayer" id="item3">        
+          <button type="button" class="btn btn-primary linkbutton"><%= link_to "Shop"%></button>
+      </div>
+      <!-- end layer/button -->
     </div>
   </div>
 </div>
 
-<div class="container-fluid">
   <div class="row mid_grid">
     <div class="col-4 col_style">
       <div class="container-fluid box1">
-      <i class="fa fa-user fa-5x"></i>
-        <h1 class="col_head">1 of 3</h1>
+      <i class="fa fa-user fa-5x "></i>
+        <h1 class="col_head">Sign-up</h1>
         <p class="col_para">Quisque in scelerisque arcu. Phasellus dapibus tincidunt est. In eu gravida mi, vitae egestas lorem. Nulla ultrices venenatis lectus, et dictum magna.</p>    
       </div>
       	
@@ -37,8 +56,8 @@
     <!-- column 1 -->
 
     
-      <i class="fa fa-user fa-5x"></i>
-      <h1 class="col_head">2 of 3</h1>
+      <i class="fa fa-headphones fa-5x"></i>
+      <h1 class="col_head">Listen</h1>
 				<p class="col_para">Duis vitae dui urna. Sed varius justo a enim tempor, sed blandit metus semper. Nullam dignissim porta nibh, vel tempor neque pulvinar ut.</p>
 
     <!-- column 2 -->
@@ -46,7 +65,7 @@
 
     
       <i class="fa fa-tag fa-5x"></i>
-      <h1 class="col_head">3 of 3</h1>
+      <h1 class="col_head">Shop</h1>
 				<p class="col_para">Curabitur ullamcorper orci at iaculis tincidunt. Donec convallis tellus sapien, eget porta eros luctus et. Fusce condimentum lacus in aliquam gravi</p>
     
 
