@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.feature "Welcome Index Page", :type => :feature do
   let(:navbar_links) do
-    %w[ V.E.T. Home Veteran\ Support V.E.T.\ Radio About Shop\ V.E.T.
+    %w[ V.E.T. Home Veteran\ Entrepreneurship V.E.T.\ Radio About Shop\ V.E.T.
     ]
   end
 
