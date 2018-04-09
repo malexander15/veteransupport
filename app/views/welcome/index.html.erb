@@ -18,7 +18,7 @@
       <%= image_tag 'salute2.jpg', class: "d-block w-100 img", alt: "first slide"%>
       <!-- Start hover image layer/button for carousel photos -->
       <div class="imagelayer" id="item1">        
-          <button type="button" class="btn btn-primary linkbutton"><%= link_to "Sign-up"%></button>
+          <%= link_to "Sign-up", welcome_radio_path, class: 'btn btn-primary linkbutton' %>
       </div>
       <!-- end layer/button -->
     </div>
@@ -27,7 +27,7 @@
       <%= image_tag 'soldiers2.jpg', class: "d-block w-100 img", alt: "second slide"%>
       <!-- Start hover image layer/button for carousel photos -->
       <div class="imagelayer" id="item2">        
-          <button type="button" class="btn btn-primary linkbutton"><%= link_to "Listen"%></button>
+        <%= link_to "Listen", welcome_radio_path, class: 'btn btn-primary linkbutton' %>
       </div>
       <!-- end layer/button -->
     </div>
@@ -36,7 +36,7 @@
       <%= image_tag 'spec-ops2.jpg', class: "d-block w-100 img", alt: "third slide"%>
       <!-- Start hover image layer/button for carousel photos -->
       <div class="imagelayer" id="item3">        
-          <button type="button" class="btn btn-primary linkbutton"><%= link_to "Shop"%></button>
+          <%= link_to "Shop", welcome_radio_path, class: 'btn btn-primary linkbutton' %>
       </div>
       <!-- end layer/button -->
     </div>
@@ -46,9 +46,11 @@
   <div class="row mid_grid">
     <div class="col-4 col_style">
       <div class="container box1">
-      <i class="fa fa-user fa-5x iconborder"></i>
-        <h1 class="col_head">Sign-up</h1>
-        <p class="col_para">Quisque in scelerisque arcu. Phasellus dapibus tincidunt est. In eu gravida mi, vitae egestas lorem. Nulla ultrices venenatis lectus, et dictum magna.</p>
+        <div class="container-fluid iconborder">
+          <i class="fa fa-user fa-5x "></i>
+        </div>
+          <h1 class="col_head">Sign-up</h1>
+          <p class="col_para">Quisque in scelerisque arcu. Phasellus dapibus tincidunt est. In eu gravida mi, vitae egestas lorem. Nulla ultrices venenatis lectus, et dictum magna.</p>
         <button type="button" class="btn btn-primary linkbutton"><%= link_to "Sign-up"%></button>    
       </div>
       	
@@ -57,18 +59,22 @@
     <!-- column 1 -->
 
     <div class="container box1">
-      <i class="fa fa-headphones fa-5x iconborder"></i>
-      <h1 class="col_head">Listen</h1>
+      <div class="container-fluid iconborder">
+        <i class="fa fa-headphones fa-5x "></i>
+      </div>
+        <h1 class="col_head">Listen</h1>
 				<p class="col_para">Duis vitae dui urna. Sed varius justo a enim tempor, sed blandit metus semper. Nullam dignissim porta nibh, vel tempor neque pulvinar ut.</p>
-        <button type="button" class="btn btn-primary linkbutton"><%= link_to "Listen"%></button>
+        <%= link_to "Listen", welcome_radio_path, class: 'btn btn-primary linkbutton'%>
     </div>
 
     <!-- column 2 -->
     
 
     <div class="container box1">
-      <i class="fa fa-tag fa-5x iconborder"></i>
-      <h1 class="col_head">Shop</h1>
+      <div class="container-fluid iconborder">
+        <i class="fa fa-tag fa-5x "></i>
+      </div>
+        <h1 class="col_head">Shop</h1>
 				<p class="col_para">Curabitur ullamcorper orci at iaculis tincidunt. Donec convallis tellus sapien, eget porta eros luctus et. Fusce condimentum lacus in aliquam gravi</p>
         <button type="button" class="btn btn-primary linkbutton"><%= link_to "Shop"%></button>
       </div>
