@@ -76,8 +76,11 @@
 	text-align: center;
 }
 .box1{
-	border: 2px;
-	padding-bottom: 1em;
+	padding-bottom: 3em;
+	padding-top: 1em;
+}
+.iconborder{
+	border-bottom: .05em solid;
 }
 .col_style{
 	text-align: center;
@@ -93,4 +96,15 @@
 }
 .parallax_filter{
 	width: 100%;
+}
+
+
+/*start radio styles*/
+
+.radiohead{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	padding-top: .5em;
+	font-size: 5em;
+	border-bottom: .2em solid;
 }
